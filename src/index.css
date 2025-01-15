@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom animation for the network effect */
+@keyframes pulse {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+
+.animate-network {
+  animation: pulse 3s infinite;
+}
+
+.bg-gray-900 {
+  background-color: #1a1a1a;
+  border-color: #333;
+}
+
+.bg-gray-800 {
+  background-color: #000;
+}
+
+#contact input, #contact textarea {
+  background-color: #000;
+}
+
+nav {
+  max-width: 95vw;
+  margin: 0 auto;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.dark {
+  background-color: #f8fafc;
+  color: #1a1a1a;
+}
+
+/* Navbar dark mode */
+.dark nav {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: #e5e7eb;
+}
+
+/* Cards and sections */
+.dark .bg-gray-900 {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.dark .bg-gray-800 {
+  background-color: #f3f4f6;
+}
+
+/* Form elements */
+.dark #contact input, 
+.dark #contact textarea {
+  background-color: white;
+  border-color: #e5e7eb;
+  color: #1a1a1a;
+}
+
+/* Text colors */
+.dark .text-white {
+  color: #1a1a1a;
+}
+
+.dark .text-gray-300 {
+  color: #4b5563;
+}
+
+.dark .text-gray-400 {
+  color: #6b7280;
+}
+
+/* Borders */
+.dark .border-gray-800 {
+  border-color: #e5e7eb;
+}
+
+/* Backgrounds */
+.dark .bg-black {
+  background-color: #f8fafc;
+}
+
+.dark .bg-black\/50 {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Button styles */
+.dark .bg-white {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.dark .hover\:bg-opacity-90:hover {
+  opacity: 0.9;
+}
+
+/* Countdown boxes */
+.dark .backdrop-blur-sm {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+/* Mobile menu */
+.dark #mobile-menu {
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+/* Gradient overlay adjustment */
+.dark .bg-\[radial-gradient\(circle_at_50\%_50\%\,rgba\(255\,255\,255\,0\.1\)\,transparent_50\%\)\] {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.05), transparent 50%);
+}
+
+/* Focus states */
+.dark input:focus,
+.dark textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+/* Spline container adjustment */
+.dark .bg-black\/80 {
+  background-color: rgba(255, 255, 255, 0.8);
+}
