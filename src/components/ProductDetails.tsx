@@ -6,19 +6,19 @@ const productDetails = [
     title: 'Document Analysis',
     description:
       'Harness state-of-the-art vision models to extract and process raw text, PDFs, images, and other unstructured data formats.',
-    image: '/product-images/AM.png',
+    image: 'https://raw.githubusercontent.com/shubhamdasdev/Cortex-website/main/product-images/AM.png',
   },
   {
     title: 'Workflow Automation',
     description:
       'Transform parsed data into high-dimensional embeddings, enabling precise vector search and semantic data alignment.',
-    image: '/product-images/CM.png',
+    image: 'https://raw.githubusercontent.com/shubhamdasdev/Cortex-website/main/product-images/CM.png',
   },
   {
     title: 'AI-Powered Insights',
     description:
       'Construct rich knowledge graphs by aligning embeddings and structuring data, powering advanced reasoning and content creation.',
-    image: '/product-images/PM.png',
+    image: 'https://raw.githubusercontent.com/shubhamdasdev/Cortex-website/main/product-images/PM.png',
   },
 ];
 
