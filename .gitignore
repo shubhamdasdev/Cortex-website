@@ -11,11 +11,6 @@ pnpm-lock.yaml
 *.lcov
 .nyc_output
 
-# Production & Build
-/build
-/dist
-/dist-ssr
-*.local
 
 # Environment Variables
 .env
