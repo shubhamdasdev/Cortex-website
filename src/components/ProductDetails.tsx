@@ -6,19 +6,19 @@ const productDetails = [
     title: 'Document Analysis',
     description:
       'Harness state-of-the-art vision models to extract and process raw text, PDFs, images, and other unstructured data formats.',
-    image: 'src/product-images/AM.png',
+    image: '/product-images/AM.png',
   },
   {
     title: 'Workflow Automation',
     description:
       'Transform parsed data into high-dimensional embeddings, enabling precise vector search and semantic data alignment.',
-    image: 'src/product-images/CM.png',
+    image: '/product-images/CM.png',
   },
   {
     title: 'AI-Powered Insights',
     description:
       'Construct rich knowledge graphs by aligning embeddings and structuring data, powering advanced reasoning and content creation.',
-    image: 'src/product-images/PM.png',
+    image: '/product-images/PM.png',
   },
 ];
 
