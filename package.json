@@ -13,6 +13,7 @@
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^1.9.59",
     "@supabase/supabase-js": "^2.39.7",
+    "@vercel/analytics": "^1.4.1",
     "framer-motion": "^11.18.0",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
