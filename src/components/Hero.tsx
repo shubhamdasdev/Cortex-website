@@ -9,7 +9,7 @@ import { Brain } from 'lucide-react';
  * Utility function to calculate remaining time until launch.
  */
 function calculateTimeLeft() {
-  const launchDate = new Date('2025-02-28').getTime();
+  const launchDate = new Date('2025-03-05').getTime();
   const now = new Date().getTime();
   const difference = launchDate - now;
 
